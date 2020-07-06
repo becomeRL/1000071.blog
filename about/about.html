@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>1000071</title>
+		<link rel="stylesheet" href="css/about.css">
+    </head>
+	<body>
+		<div class="hero-section">
+  			<div class="hero-section-text">
+  			  <h1>MANGI's BLOG</h1>
+  			  <h5>MAKE IT YOUR OWN WAY</h5>
+ 			 </div>
+		</div>
+		<nav class="top-bar topbar-responsive">
+			<div class="top-bar-title">
+				<a class="topbar-responsive-logo" href="../index.html"><strong>MANGI's BLOG</strong></a>
+			</div>
+			<div id="topbar-responsive" class="topbar-responsive-links">
+				<div class="top-bar-right">
+				<ul class="menu simple vertical medium-horizontal">			
+					<li><a href="#">About</a></li>				
+					<li><a href="../works/works.html">Works</a></li>
+					<li><a href="../news/news.html">News</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="portfolio-resume row">
+			<div class="large-4 columns">
+				<div class="portfolio-resume-wrapper">
+					<img class="portfolio-resume-headshot" src="img/face.png" alt="headshot">
+					<h3 class="portfolio-resume-header">Hobby</h3>
+					<ul>
+						<li>Watching Movies</li>
+						<li>Going on a trip</li>
+						<li>Reading Books</li>						
+						<li>Playing LOL</li>						
+						<li>Oversleeping on weekends</li>
+					</ul>
+				</div>
+			</div>
+			<div class="large-4 columns">
+				<div class="portfolio-resume-wrapper">
+					<h3 class="portfolio-resume-header">Experience</h3>
+					<div class="portfolio-resume-spacing">
+						<h5><strong>My First Project</strong></h5>
+						<p>When I spent a time in JeJu Island as a Auxiliary Police, I made a Web Game. </p>
+						<ul>
+							<li>Making a parody of a animation, Crayon Shin-chan</li>
+							<li>Designing like a labyrinth with quizzes</li>							
+							<li>Making a friend the main character</li>
+							<li><a href="https://lightningchoe.github.io/">Go For It</a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<div class="large-4 columns">
+				<div class="portfolio-resume-wrapper">
+					<h3 class="portfolio-resume-header">About Me</h3>
+					<p>An alchemist with a free soul who wants to leave in search of the myth of self.</p>
+					<div class="portfolio-resume-contact-info">
+						<a href="mailto:#"><i class="fa fa-envelope" aria-hidden="true"></i>lightning37@naver.com</a>
+					</div>
+					<div class="portfolio-resume-contact-info">
+						<a href="tel:+14083410600"><i class="fa fa-phone" aria-hidden="true"></i></i>010.1234.5678</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button id="MOVE_TOP_BTN" href="#">TOP</button>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script language=JavaScript>
+			function click() 
+			{if ((event.button==2) || (event.button==2)) 
+			{alert('Nope');
+			}
+			}document.onmousedown=click
+		</script>
+		<script>
+			$(function() {
+				$(window).scroll(function() {
+					if ($(this).scrollTop() > 500) {
+						$('#MOVE_TOP_BTN').fadeIn();
+					} else {
+						$('#MOVE_TOP_BTN').fadeOut();
+					}
+				});
+				 
+				$("#MOVE_TOP_BTN").click(function() {
+					$('html, body').animate({
+						scrollTop : 0
+					}, 400);
+					return false;
+				});
+			});
+		</script>
+	</body>
+</html>

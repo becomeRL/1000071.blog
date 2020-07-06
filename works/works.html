@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>1000071</title>
+		<link rel="stylesheet" href="css/works.css">
+    </head>
+	<body>
+		<div class="hero-section">
+  			<div class="hero-section-text">
+  			  <h1>MANGI's BLOG</h1>
+  			  <h5>MAKE IT YOUR OWN WAY</h5>
+ 			 </div>
+		</div>
+		<nav class="top-bar topbar-responsive">
+			<div class="top-bar-title">
+				<a class="topbar-responsive-logo" href="../index.html"><strong>MANGI's BLOG</strong></a>
+			</div>
+			<div id="topbar-responsive" class="topbar-responsive-links">
+				<div class="top-bar-right">
+				<ul class="menu simple vertical medium-horizontal">			
+					<li><a href="../about/about.html">About</a></li>				
+					<li><a href="#">Works</a></li>
+					<li><a href="../news/news.html">News</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="responsive-blog-post">
+			<div class="individual-post">
+				<h4>I can't stop Crayon SoonKwang</h4>
+				<p class="date">2020-05-05~05-29</p>
+				<img src="img/can't stop him.png" width="70%" height="70%">
+				<p> First Web Game I made when Auxiliary Police</p>
+				<a class="button" href="https://lightningchoe.github.io/">Go For It</a>
+			</div>
+		</div>
+		<div class="responsive-blog-post">
+			<div class="individual-post">
+				<h4>Coming Soon</h4>
+				<p class="date">~</p>
+				<img src="http://indante.ru/coming-soon-1.jpg" width="70%" height="70%">
+				<p>Coming Soon</p>
+				<a class="button" href="#">Go For It</a>
+			</div>
+		</div>
+		<button id="MOVE_TOP_BTN" href="#">TOP</button>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script language=JavaScript>
+			function click() 
+			{if ((event.button==2) || (event.button==2)) 
+			{alert('Nope');
+			}
+			}document.onmousedown=click
+		</script>
+		<script>
+			$(function() {
+				$(window).scroll(function() {
+					if ($(this).scrollTop() > 500) {
+						$('#MOVE_TOP_BTN').fadeIn();
+					} else {
+						$('#MOVE_TOP_BTN').fadeOut();
+					}
+				});
+				 
+				$("#MOVE_TOP_BTN").click(function() {
+					$('html, body').animate({
+						scrollTop : 0
+					}, 400);
+					return false;
+				});
+			});
+		</script>
+	</body>
+</html>

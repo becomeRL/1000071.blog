@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>1000071</title>
+		<link rel="stylesheet" href="css/news.css">
+    </head>
+	<body>
+		<div class="hero-section">
+  			<div class="hero-section-text">
+  			  <h1>MANGI's BLOG</h1>
+  			  <h5>MAKE IT YOUR OWN WAY</h5>
+ 			 </div>
+		</div>
+		<nav class="top-bar topbar-responsive">
+			<div class="top-bar-title">
+				<a class="topbar-responsive-logo" href="../index.html"><strong>MANGI's BLOG</strong></a>
+			</div>
+			<div id="topbar-responsive" class="topbar-responsive-links">
+				<div class="top-bar-right">
+				<ul class="menu simple vertical medium-horizontal">			
+					<li><a href="../about/about.html">About</a></li>				
+					<li><a href="../works/works.html">Works</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="article-row-section">
+			<div class="article-row-section-inner">
+
+				<h2 class="article-row-section-header">News</h2>
+
+				<a href="japan/japan.html">
+				<article class="article-row">
+					<div class="article-row-img">
+					<img src="img/street jp.jpg" alt="street in Japan" />
+					</div>
+					<div class="article-row-content">
+					<h1 class="article-row-content-header">Going to Japan</h1>
+
+					<p class="article-row-content-description">
+						중학교 친구와 떠난 인생 첫 번째 해외여행(feat-무계획) <br>
+						(교토-고베-오사카)						
+					</p>
+
+					<p class="article-row-content-author">By ManGi</p>
+					<time class="article-row-content-time" datetime="2008-02-14 20:00">Jaunary 2017</time>
+					</div>
+				</article>
+				</a>
+
+				<a href="viet nam/viet nam.html">
+				<article class="article-row article-row-reversed">
+					<div class="article-row-img">
+					<img src="img/beach vn.jpg" alt="beach in viet nam" />
+					</div>
+					<div class="article-row-content">
+					<h1 class="article-row-content-header">Going to Viet Nam</h1>
+
+					<p class="article-row-content-description">
+						고등학교 친구들과 떠난 인생 두 번째 해외여행(feat-무계획)<br>
+						(하노이-깟바 섬-하노이)
+					</p>
+
+					<p class="article-row-content-author">By ManGi</p>
+					<time class="article-row-content-time" datetime="2008-02-14 20:00">August 2017</time>
+					</div>
+				</article>
+				</a>
+
+				<a href="taiwan/taiwan.html">
+				<article class="article-row">
+					<div class="article-row-img">
+					<img src="img/street tw.jpg" alt="street in taiwan" />
+					</div>
+					<div class="article-row-content">
+					<h1 class="article-row-content-header">Going to Taiwan</h1>
+
+					<p class="article-row-content-description">
+						중학교 친구와 떠난 인생 세 번째 해외여행(feat-무계획) <br>
+						(타이베이)						
+					</p>
+
+					<p class="article-row-content-author">By ManGi</p>
+					<time class="article-row-content-time" datetime="2008-02-14 20:00">September 2018</time>
+					</div>
+				</article>
+				</a>
+
+			</div>
+		</div>
+		<button id="MOVE_TOP_BTN" href="#">TOP</button>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script language=JavaScript>
+			function click() 
+			{if ((event.button==2) || (event.button==2)) 
+			{alert('Nope');
+			}
+			}document.onmousedown=click
+		</script>
+		<script>
+			$(function() {
+				$(window).scroll(function() {
+					if ($(this).scrollTop() > 500) {
+						$('#MOVE_TOP_BTN').fadeIn();
+					} else {
+						$('#MOVE_TOP_BTN').fadeOut();
+					}
+				});
+				 
+				$("#MOVE_TOP_BTN").click(function() {
+					$('html, body').animate({
+						scrollTop : 0
+					}, 400);
+					return false;
+				});
+			});
+		</script>
+	</body>
+</html>
