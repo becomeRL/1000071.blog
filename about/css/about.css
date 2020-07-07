@@ -5,14 +5,8 @@
   text-align: center;
   color: #fefefe;
   display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 nav ul li{
   display: inline;
@@ -52,14 +46,11 @@ nav ul li{
 }
 
 .topbar-responsive .menu  {
-  color: #fefefe;
-  border-color: #fefefe;
   border-radius: 5000px;
   transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
 
 .topbar-responsive .menu {
-  color: #c6d1d8;
   border-color: #c6d1d8;
 }
 
@@ -78,7 +69,7 @@ nav ul li{
     position: relative;
     width: 100%;
   }
-  .topbar-responsive  {
+  .topbar-responsive {
     position: absolute;
     right: 0;
     border: 1px solid #fefefe;
@@ -89,7 +80,7 @@ nav ul li{
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .topbar-responsive   {
+  .topbar-responsive {
     margin-bottom: 4px;
   }
 }
@@ -165,7 +156,6 @@ nav ul li{
   text-transform: uppercase;
   padding-bottom: 1rem;
   border-bottom: 1px solid #e6e6e6;
-  font-weight: bold;
   margin-bottom: 1rem;
 }
 
