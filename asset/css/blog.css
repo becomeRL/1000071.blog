@@ -5,14 +5,8 @@
   text-align: center;
   color: #fefefe;
   display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 nav ul li{
   display: inline;
@@ -52,14 +46,11 @@ nav ul li{
 }
 
 .topbar-responsive .menu  {
-  color: #fefefe;
-  border-color: #fefefe;
   border-radius: 5000px;
   transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
 
 .topbar-responsive .menu {
-  color: #c6d1d8;
   border-color: #c6d1d8;
 }
 
@@ -172,13 +163,9 @@ nav ul li{
 }
 
 .testimonial-block-vertical-person {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 1.65rem;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .testimonial-block-vertical-avatar {
