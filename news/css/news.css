@@ -5,16 +5,9 @@
   text-align: center;
   color: #fefefe;
   display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 nav ul li{
   display: inline;
 }
@@ -53,19 +46,16 @@ nav ul li{
 }
 
 .topbar-responsive .menu  {
-  color: #fefefe;
-  border-color: #fefefe;
   border-radius: 5000px;
   transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
 
-.topbar-responsive .menu  {
-  color: #c6d1d8;
+.topbar-responsive .menu {
   border-color: #c6d1d8;
 }
 
 @media screen and (max-width: 39.9375em) {
-  .topbar-responsive .menu  {
+  .topbar-responsive .menu {
     width: 100%;
     margin: 0.875rem 0;
   }
@@ -79,7 +69,7 @@ nav ul li{
     position: relative;
     width: 100%;
   }
-  .topbar-responsive  {
+  .topbar-responsive {
     position: absolute;
     right: 0;
     border: 1px solid #fefefe;
@@ -90,7 +80,7 @@ nav ul li{
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .topbar-responsive  {
+  .topbar-responsive {
     margin-bottom: 4px;
   }
 }
@@ -146,7 +136,6 @@ nav ul li{
             animation: fadeIn 1s ease-in;
   }
 }
-
 
 .article-row-section {
   max-width: 75rem;
@@ -206,26 +195,15 @@ nav ul li{
 }
 
 .article-row {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
   border-top: 1px solid #e6e6e6;
   padding: 1.5rem 0;
 }
 
 @media print, screen and (min-width: 40em) {
   .article-row {
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
-}
-
-.article-row-img img {
-  width: 100%;
 }
 
 @media print, screen and (min-width: 40em) {
@@ -237,7 +215,6 @@ nav ul li{
 }
 
 .article-row-content {
-  padding: 1.5rem 0 0;
   color: #0a0a0a;
 }
 
@@ -245,10 +222,6 @@ nav ul li{
   .article-row-content {
     padding: 0 0 0 1.5rem;
   }
-}
-
-.article-row-content-header {
-  font-size: 1.5rem;
 }
 
 .article-row-content-description {
