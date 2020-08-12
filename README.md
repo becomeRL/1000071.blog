@@ -1,22 +1,23 @@
-# Man Gi's Blog
+# Man-Gi Home
 
-Welcome to the my homepage! Here's all the stuff you need to know, use, and focus on. 
-Send me an e-mail, if you have any questions!  
+Hello World
 
-[Club Mission](https://www.notion.so/Club-Mission-29142784babf475897803a95c69edfdb)
+## Daily
 
-[Members](https://www.notion.so/a786efd0a0d442be91ba45b5798acb3a)
+---
 
-[Ideas](https://www.notion.so/0053853848da4f70af876fa279b6d0ec)
+[Movie List](Man-Gi%20Home%20437b8e9f5a3549ffbd4420ed1b846959/Movie%20List%20ecde0ff0314345e5a2c7de37aa3bf704.md)
 
-[Meeting Notes](https://www.notion.so/75f726a9f52546f99d3d36067235e465)
+[Recipes](Man-Gi%20Home%20437b8e9f5a3549ffbd4420ed1b846959/Recipes%208e96ad15f18f45ffbeaa068ed2282d4b.csv)
 
-[Tasks](https://www.notion.so/98c3e7f4128441baae6831d83222899a)
+## Life
 
-[Finance & Sponsorships](https://www.notion.so/Finance-Sponsorships-606162e6a4914a4ea258ca206916b0b4)
+---
 
-[Promotional Materials](https://www.notion.so/Promotional-Materials-c578fe7ffed84943942ba24201385a06)
+[Yearly Goals](Man-Gi%20Home%20437b8e9f5a3549ffbd4420ed1b846959/Yearly%20Goals%20d120c24cfc6e4dc58775e08b62dcedc2.md)
 
-[External Contacts](https://www.notion.so/External-Contacts-cdecb02776a547ddaa32a182a9e94adb)
+[Travel Plans](Man-Gi%20Home%20437b8e9f5a3549ffbd4420ed1b846959/Travel%20Plans%20e122ed3e7943480bb5d181b5218bd338.csv)
 
-[Initiatives](https://www.notion.so/317290964f3a4c35bae9dff760ee4ed0)
+[Tasks](Man-Gi%20Home%20437b8e9f5a3549ffbd4420ed1b846959/Tasks%20003f4a7c4c6a499ea705641bc289d05a.csv)
+
+[External Contacts](Man-Gi%20Home%20437b8e9f5a3549ffbd4420ed1b846959/External%20Contacts%205bdbf1e6856b4e26991ac58da7c504dc.md)
