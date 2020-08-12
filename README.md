@@ -1,6 +1,8 @@
 # Man-Gi Home
 
 Hello World
+---
+Using notion,make up blog and supplement vairous tools more than before.
 
 ## Daily
 
